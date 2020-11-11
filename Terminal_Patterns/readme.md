@@ -4,21 +4,22 @@ Shortest one-line version for Bash:
 
 ````yes 'c=(╱ ╲);printf ${c[RANDOM%2]}'|bash````
 
-![10_print_in_bash](/img/10_print_bash.png)
+![10_print_in_bash](./img/10_print_bash.png)
 ***
 
-````c=($’⫸’ $’⫷’); n=${#c[@]}; clear; while :; do printf -- "${c[RANDOM%n]}"; done;;````
+````c=($’⫸’ $’⫷’); n=${#c[@]}; clear; while :; do printf -- "${c[RANDOM%n]}"; done;````
 
-![arrow_pattern_bash](/img/arrow_bash.png)
+![arrow_pattern_bash](./img/arrow_bash.png)
 ***
 
 ````c=($'🌴' $'🌲' $'🌳'); n=${#c[@]}; clear; while :; do printf -- "${c[RANDOM%n]}"; done;````
 
-![forest](/img/forest_bash.png)
+![forest](./img/forest_bash.png)
 
 ***
 
->Change background color via File > Settings > Profiles > Background.
+>NICE TO HAVE:  
+>Change background color via File > Settings > Profiles > Background.  
 >Change font color, character spacing and line height via File > Settings > Profiles > Font/Typography.
 
 ***
