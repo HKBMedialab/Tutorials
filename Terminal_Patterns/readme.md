@@ -4,17 +4,18 @@ Shortest one-line version for Bash:
 
 ````yes 'c=(╱ ╲);printf ${c[RANDOM%2]}'|bash````
 
-<img src="./img/10_print_bash.jpg">
+<img src="./img/10_print_bash.png">
 <hr>
 
 ````c=($'—' $'|'); n=${#c[@]}; clear; while :; do printf -- "${c[RANDOM%n]}"; done;````
 
-<img src="./img/10_print_bash.jpg">
+<img src="./img/10_print_bash.png">
 <hr>
 
 ````c=($'🌴' $'🌲' $'🌳'); n=${#c[@]}; clear; while :; do printf -- "${c[RANDOM%n]}"; done;````
 
-<img src="./img/10_print_bash.jpg">
+<img src="./img/10_print_bash.png">
+
 <hr>
 
 ````c=($'n' $'s'); n=${#c[@]}; clear; while :; do say -r400 "${c[RANDOM%n]}"; done;````
