@@ -4,10 +4,31 @@ Shortest one-line version for Bash:
 
 ````yes 'c=(╱ ╲);printf ${c[RANDOM%2]}'|bash````
 
-````c=($'—' $'|'); n=${#c[@]}; clear; while :; do printf -- "${c[RANDOM%n]}"; done;````
-outputs:
+<img src="./img/10_print_bash.jpg">
+<hr>
 
-````c=($'  ' $'  ' $'  '); n=${#c[@]}; clear; while :; do printf -- "${c[RANDOM%n]}"; done;````
+````c=($'—' $'|'); n=${#c[@]}; clear; while :; do printf -- "${c[RANDOM%n]}"; done;````
+
+<img src="./img/10_print_bash.jpg">
+<hr>
+
+````c=($'🌴' $'🌲' $'🌳'); n=${#c[@]}; clear; while :; do printf -- "${c[RANDOM%n]}"; done;````
+
+<img src="./img/10_print_bash.jpg">
+<hr>
 
 ````c=($'n' $'s'); n=${#c[@]}; clear; while :; do say -r400 "${c[RANDOM%n]}"; done;````
-````say -r400                                ````
+
+<hr>
+
+````say -r600 🌲🌲🌳🌳🌲🌳🌲🌲🌴🌳🌲🌳🌴🌳🌴🌳🌴````
+
+
+
+## Windows PowerShell
+
+Definitely not as funny on Windows as on Mac because PowerShell lacks displaying Emojis and text-to-speech is not preinstalled.
+
+Shortest one-line version of "10 Print Chr$(..." for PowerShell:
+
+````for(){Write-Host(Random("\","/"))-N}````
