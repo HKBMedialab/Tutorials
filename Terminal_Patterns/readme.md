@@ -7,14 +7,14 @@ Shortest one-line version for Bash:
 <img src="./img/10_print_bash.png">
 <hr>
 
-````c=($'—' $'|'); n=${#c[@]}; clear; while :; do printf -- "${c[RANDOM%n]}"; done;````
+````c=($’⫸’ $’⫷’); n=${#c[@]}; clear; while :; do printf -- "${c[RANDOM%n]}"; done;;````
 
-<img src="./img/forest_bash.png">
+<img src="./img/arrow_bash.png">
 <hr>
 
 ````c=($'🌴' $'🌲' $'🌳'); n=${#c[@]}; clear; while :; do printf -- "${c[RANDOM%n]}"; done;````
 
-<img src="./img/10_print_bash.png">
+<img src="./img/forest_bash_.png">
 
 <hr>
 
