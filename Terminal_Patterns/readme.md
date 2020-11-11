@@ -4,26 +4,31 @@ Shortest one-line version for Bash:
 
 ````yes 'c=(╱ ╲);printf ${c[RANDOM%2]}'|bash````
 
-<img src="./img/10_print_bash.png">
-<hr>
+![10_print_in_bash](/img/10_print_bash.png)
+***
 
 ````c=($’⫸’ $’⫷’); n=${#c[@]}; clear; while :; do printf -- "${c[RANDOM%n]}"; done;;````
 
-<img src="./img/arrow_bash.png">
-<hr>
+![arrow_pattern_bash](/img/arrow_bash.png)
+***
 
 ````c=($'🌴' $'🌲' $'🌳'); n=${#c[@]}; clear; while :; do printf -- "${c[RANDOM%n]}"; done;````
 
-<img src="./img/forest_bash_.png">
+![forest](/img/forest_bash.png)
 
-<hr>
+***
+
+>Change background color via File > Settings > Profiles > Background.
+>Change font color, character spacing and line height via File > Settings > Profiles > Font/Typography.
+
+***
 
 ````c=($'n' $'s'); n=${#c[@]}; clear; while :; do say -r400 "${c[RANDOM%n]}"; done;````
 
-<hr>
+***
 
 ````say -r600 🌲🌲🌳🌳🌲🌳🌲🌲🌴🌳🌲🌳🌴🌳🌴🌳🌴````
-
+***
 
 
 ## Windows PowerShell
