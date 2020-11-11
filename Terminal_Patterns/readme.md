@@ -9,7 +9,7 @@ Shortest one-line version for Bash:
 
 ````c=($'—' $'|'); n=${#c[@]}; clear; while :; do printf -- "${c[RANDOM%n]}"; done;````
 
-<img src="./img/10_print_bash.png">
+<img src="./img/forest_bash.png">
 <hr>
 
 ````c=($'🌴' $'🌲' $'🌳'); n=${#c[@]}; clear; while :; do printf -- "${c[RANDOM%n]}"; done;````
