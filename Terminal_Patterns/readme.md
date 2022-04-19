@@ -32,9 +32,9 @@ Text-to-speech is even funnier with emojis. Just copy some lines from an output 
 ***
 ## Image to Audio
 By using a spectrogram player like one of the following, you can listen to your patterns!  
-- [Image to Audio, Spectrogram Player](https://nsspot.herokuapp.com/imagetoaudio/)  
-- [Photosounder](https://www.photosounder.com/)
-- [PixelSynth](https://ojack.xyz/PIXELSYNTH/)  
+- [Image to Audio, Spectrogram Player](https://nsspot.herokuapp.com/imagetoaudio/) (online)
+- [Photosounder](https://www.photosounder.com/) (App, Mac & Win)
+- [PixelSynth](https://ojack.xyz/PIXELSYNTH/) (online)
 
 or let in analyze by AI:  
 - [Imaginary Soundscape](http://www.imaginarysoundscape.net/) 
